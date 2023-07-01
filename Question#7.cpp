@@ -12,3 +12,13 @@ public:
         return minRow * minCol; // Return the maximum count
     }
 };
+
+// for (vector<int>& op : ops) {
+// }
+// can be written as 
+
+// for (int i = 0; i < ops.size(); i++) {
+//     vector<int>& op = ops[i];
+//     // Rest of the code...
+// }
+
